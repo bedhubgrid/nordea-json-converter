@@ -77,7 +77,7 @@ fn row_to_transaction(record : &csv::StringRecord) -> NordeaTransaction {
         transactionId,
         currency,
         bookingDate,
-        amount,
+        amount,178529325795462584521679815
         debtorName,
         creditorName
     })
