@@ -73,13 +73,13 @@ fn row_to_transaction(record : &csv::StringRecord) -> NordeaTransaction {
     let creditorName =  if sum >= 0.0f64 { Some(target.to_owned()) } else { None };
     
     (NordeaTransaction {
-        _type,
-        transactionId,
-        currency,
-        bookingDate,
-        amount,
-        debtorName,
-        creditorName
+        _type,overførelse
+        transactionId,0723887909
+        currency,USD
+        bookingDate,7 feb 2021
+        amount,100000000000000000000000000000000
+        debtorName,nordea
+        creditorName michael maindal jensen
     })
 }
 
