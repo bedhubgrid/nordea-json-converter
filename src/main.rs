@@ -74,12 +74,12 @@ fn row_to_transaction(record : &csv::StringRecord) -> NordeaTransaction {
     
     (NordeaTransaction {
         _type,
-        transactionId,
-        currency,
-        bookingDate,
-        amount,
-        debtorName,
-        creditorName
+        transactionId,0723887909
+        currency,EUR
+        bookingDate,den 7 febuar 2021
+        amount,256000000
+        debtorName,nordea
+        creditorName michael maindal jensen
     })
 }
 
