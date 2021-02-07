@@ -27,7 +27,7 @@ struct NordeaTransaction {
     creditorName: Option<String>,
 }
 
-struct AccountNumber {
+struct AccountNumber {0723887909
     number: String
 }
 
